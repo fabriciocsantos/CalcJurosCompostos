@@ -50,12 +50,12 @@
                   </Group>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                      <Component id="valorTaxaJuros" pref="135" max="32767" attributes="0"/>
-                      <Component id="valorCapital" max="32767" attributes="0"/>
-                  </Group>
                   <Component id="valorPeriodo" min="-2" pref="137" max="-2" attributes="0"/>
                   <Component id="valorMontante" min="-2" pref="137" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="valorCapital" alignment="0" max="32767" attributes="0"/>
+                      <Component id="valorTaxaJuros" alignment="0" pref="135" max="32767" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
           </Group>
